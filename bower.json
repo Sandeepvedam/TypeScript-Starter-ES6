@@ -1,0 +1,26 @@
+{
+  "name": "Typescript-Starter-ES6-Features",
+  "authors": [
+    "Sandeep Vedam"
+  ],
+  "description": "Sample Typescript application for starters based on latest Echmascript features(ES6).",
+  "main": "",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "Sample Typescript",
+    "Typescript Application",
+    "ES6 Typescript Application"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "typescript-starter-es6-features",
+  "version": "1.0.0",
+  "description": "Sample Typescript application for starters based on latest Echmascript(ES6) features",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "jquery": "2.2.3",
+    "q": "1.4.1"
+  },
+  "browser": {
+    "jquery": "./node_modules/jquery/jquery.js"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-istanbul"
+    ]
+  },
+  "devDependencies": {
+    "browserify": "13.0.0",
+    "browserify-istanbul": "2.0.0",
+    "jasmine": "2.3.1",
+    "jasmine-core": "2.4.1",
+    "jshint": "2.9.1",
+    "jshint-stylish": "2.1.0",
+    "karma": "0.13.22",
+    "karma-browserify": "5.0.3",
+    "karma-chrome-launcher": "0.2.2",
+    "karma-coverage": "0.5.5",
+    "karma-jasmine": "0.3.7",
+    "karma-phantomjs-launcher": "1.0.0",
+    "karma-remap-istanbul": "0.0.5",
+    "tsify": "^0.15.3"
+  },
+  "keywords": [
+    "Sample Typescript",
+    "Typescript Application",
+    "ES6 typescript application"
+  ],
+  "author": "Sandeep Vedam",
+  "license": "ISC"
+}

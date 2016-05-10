@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "sourceMap": false,
+        "declaration": true,
+        "module": "commonjs"
+    },
+    "filesGlob": [
+        "typings/tsd.d.ts",
+        "src/**/*.ts",
+        "test/**/*.ts"
+    ],
+    "files": [
+        "src/color/ColorManager.ts",
+        "src/main/ColorComponent.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
