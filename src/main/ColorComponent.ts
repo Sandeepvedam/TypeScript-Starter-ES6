@@ -6,7 +6,7 @@ export interface IColorModule{
 
 export class ColorModule implements IColorModule{
 
-    private colorObject : ITest;
+    private colorObject : IColorManager;
 
     public constructor(){
         this.colorObject = new ColorManager();
@@ -15,7 +15,7 @@ export class ColorModule implements IColorModule{
 
     public getData(){
         let data = this.colorObject.loadData();
-        alert(data);
+        console.log(data);
     }
 
 }
